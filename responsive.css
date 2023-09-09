@@ -1,0 +1,250 @@
+/* Big laptop and desktop */
+@media only screen and (max-width: 1500px) and (min-width: 1215px){
+    .navbar {
+        width: 20%;
+    }
+    .section1 {
+        margin-left: 240px;
+    }
+    .sec1div3 {
+        width: 400px;
+    }
+    .sec1div4spec p{
+        font-size: 0.7em;
+    }
+    .sec1div4spec h1{
+        font-size: 0.8em;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+    .sec1div6 {
+        font-size: 11px;
+    }
+    .sec1div7 {
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width: 1214px) and (min-width: 850px){
+    .navbar {
+        z-index: 9999;
+        background: linear-gradient(to bottom, rgb(60,60,60), black);
+        width: 20%;
+        height: 100%;
+        position: fixed;
+    }
+    .navdiv2 p{
+        font-size: 1em;
+        color: rgb(147, 232, 255);
+        font-weight: 800;
+        padding: 30px 5px;
+    }
+    .navdiv3 {
+        margin-top: 350px;
+        padding: 20px;
+    }
+    .navdiv3 a{
+        font-size: 0.8em;
+    }
+    .section1 {
+        margin-left: 150px;
+        padding: 0px;
+        height: 100vh;
+        background-color: rgb(15, 15, 15);
+    }
+    .sec1div1{
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec1div2{
+        margin-top: 20px;
+    }
+    .sec1div3 {
+        width: 200px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 15px;
+    }
+    .sec1div4 {
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        padding: 10px;
+    }
+    .sec1div4spec{
+        text-align: left;
+        justify-content: left;
+    }
+    .sec1div4spec p{
+        padding: 2px;
+        font-size: 0.6em;
+        color: whitesmoke;
+    }
+    .sec1div4spec h1{
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+    .sec1div4 img{
+        object-fit: cover;
+        margin-right: 10px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+    }
+    .sec1div5 {
+        padding: 5px;
+        margin: 0px 10px 10px 10px; 
+    }
+    .sec1div6 a{
+        padding: 5px 10px 5px 10px;
+        border-radius: 10px;
+        color: black;
+        font-size: 0.6em;
+    }
+    .sec1div7 {
+        font-size: 0.6em;
+        gap: 2px;
+    }
+    .section2 {
+        margin: 15px;
+    }
+    .sec2div1 {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .sec2div1 img{
+        object-fit: cover;
+        width: 200px;
+        height: 150px;
+        border-radius: 15px;
+        border: 2px solid black;
+        margin-right: 20px;
+    }
+    .sec2div2 {
+        width: 400px;
+
+    }
+    .sec2div2 h1{
+        font-size: 0.8em;
+        padding: 30px;
+        font-weight: 400;
+    }
+}
+@media only screen and (max-width: 849px) and (min-width: 500px){
+    
+    .navbar {
+        width: 30%;
+        height: 100%;
+        position: fixed;
+    }
+    .navdiv2 p{
+        font-size: 1.2em;
+        color: rgb(147, 232, 255);
+        font-weight: 700;
+        padding: 20px 5px;
+    }
+    .navdiv3 {
+        margin-top: 500px;
+        padding: 20px;
+    }
+    .section1 {
+        width: 100vw;
+        height: 100%;
+        padding: 50px;
+        background-color: rgb(15, 15, 15);
+    }
+    .sec1div2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sec1div3 {
+        width: 300px;
+        height: 200px;
+        margin: 15px;
+        background: linear-gradient(27deg,rgb(68, 68, 168), rgb(155, 180, 255));
+        border-radius: 15px;
+    }
+    .sec1div4 {
+        padding: 10px;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .sec2div2 {
+        width: 300px;
+        height: 300px; 
+    }
+}
+@media (max-width: 499px){
+    .newnav {
+        display: block;
+    }
+    .navbar {
+        background: linear-gradient(to right, rgb(60,60,60), black);
+        width: 100%;
+        height: 80px;
+        padding: 10px;
+        position: fixed;
+    }
+    .navdiv1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
+    }
+    .navdiv2 p{
+        display: flex;
+        font-size: 0.8em;
+    }
+    .navdiv3 {
+        display: flex;
+        margin-left: 65px;
+        align-items: end;
+        margin-top: 0px;
+        padding: 5px;
+    }
+    .navdiv3 li{
+        list-style: none;
+        font-size: 0.6em;
+        font-weight: 500;
+        padding: 5px;
+    }
+
+    .section1 {
+        margin-left: 0px;
+        padding: 80px;
+        width: 120%;
+        height: 100%;
+        background-color: rgb(15, 15, 15);
+    }
+    .sec1div2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec1div3{
+        width: 350px;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .sec2div2 {
+        margin-top: 20px;
+        width: 300px;
+        height: 300px; 
+    }
+}
